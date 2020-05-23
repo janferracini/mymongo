@@ -14,7 +14,7 @@
         <?php foreach($data as $d) { ?>
             <td><?php echo $d->cpf ?></td>
             <td><?php echo $d->nome ?></td>
-            <td>@<?php echo $d->email ?></td>
+            <td><?php echo $d->email ?></td>
             <td><a href="editar?id=<?php echo $d->_id ?>" class="bnt">Editar</a></td>
             </tr>
         <?php }?>
